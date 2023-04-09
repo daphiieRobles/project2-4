@@ -1,0 +1,311 @@
+
+
+body > header > nav.horizontalNavigation li {
+    width: 25%;
+    display: block;
+    color: white;
+    font-size: 20px;
+    float: left;
+    
+}
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+    color: white;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align:  center;
+    font-size: 35px;
+    font-style: monospace;
+   text-decoration: inherit;
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+    display: block;
+}
+
+
+div.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+
+}
+
+header>h1 { 
+    display: block;
+    text-align: left;
+    color: slategray;
+    
+
+    
+}
+
+div.headertitle {
+text-align: center;
+color: grey;
+text-shadow: #111;
+font-size: 30px;
+
+}
+/*body styles*/
+
+body {
+    background-color: orange;
+}
+
+div.headertext {
+   text-align: center;
+    font-size: 30px;
+
+   
+   
+}
+
+
+footer {
+    background-color: #28B844;
+    margin: 0px;
+    padding: 0px;
+}
+
+section#contactInfo p {
+   line-height: 1.4em;
+   margin: 1em;
+}   
+
+body > footer {
+   font-size: 0.9em;
+   color: rgb(186, 186, 156);
+}
+
+body > footer h1 {
+   color: rgb(248, 248, 186);
+   font-size: 1.1em;
+   font-weight: normal;
+   letter-spacing: 0.2em;
+   margin: 1em 0 0.5em 1em;
+}
+
+div.contacfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    font-style: monospace;
+    font-size: 20px;
+    margin: 0;
+    
+}
+/* link styles*/
+
+a {
+    display: block;
+    display: inline;
+    color: whitesmoke;
+    font-size: 35px;
+    justify-content: space-evenly;
+
+}
+a:link {
+    text-decoration: none;
+    display: block;
+}
+a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+}
+
+a:hover {
+    text-decoration:dashed;
+    display: block;
+}
+.Menu { 
+list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  display: block;
+
+}
+ul.menu.container {
+    padding: 0px;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 ;
+    display: block;
+    justify-content: space-evenly;
+    display: flex;
+  
+
+}
+
+
+li.poss {
+    display: block;
+    display: inline;
+    color: whitesmoke;
+    font-size: 35px;
+    justify-content: space-evenly;
+}
+
+a.edition {
+    font-size: 25px;
+     color: white;
+    list-style: none;
+}
+
+.logo {
+    float: left;
+}
+/*form styles*/
+
+input {
+
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align: center;
+
+}
+
+input[type=submit] {
+    align-content: center;
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 20px;
+    margin:0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;}
+    input[type=reset] {
+        width: 30%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 20px;
+        margin: 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;}
+    
+    input[type=text]   {
+       width: 1219px;
+       height: 200px;
+
+    
+     }
+     .maincontent {
+        text-align: center;
+        font-size: 25px;
+        font-family: monospace;
+     }
+
+     /*gallery*/
+
+     h1.mission {
+        text-align: center;
+      font-size: 50px;
+      font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: green;
+     }
+     h2.subtitle {
+
+        text-align: center;
+     }
+     div.gallery {
+        margin: 4px;
+        border: 1px solid #ccc;
+        float:right;
+        width: 180px;
+    
+    
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: 100%;
+       
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+    /*accordion*/
+
+ .events {
+    text-align: center;
+    color:#111;
+   
+ }
+    
+ /*menu*/
+ #myDIV {
+    height:300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    grid-row-gap: 100px;
+  }
+  #myDIV div {
+   
+    text-align: center;
+    padding: 10px ;
+    font-size: 30px;
+    box-sizing: content-box;
+  }
+ 
+  p.card-text {
+    text-align: center;
+    font-size: medium;
+  }
+ 
+ 
+
+.card {
+    --bs-card-bg: lightsalmon;
+    text-decoration-color: #ccc;
+ 
+ }
+ .menuList {
+    border-color: #ccc;
+ }
+ a.btn {
+    color:white;
+ }
+
+ .menuImage {
+
+        background-image: url(menuimage.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+ .eventsImage {
+    background-image: url(conffeti.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+ }
